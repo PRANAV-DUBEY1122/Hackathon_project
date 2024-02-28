@@ -1,0 +1,2 @@
+11:14:36.235 [main] INFO  testCases.TS03_GoogleSignIn - Captured error message on using invalid login credentials 
+11:14:36.837 [main] INFO  testCases.TS03_GoogleSignIn - Login page execution got failed and captured error message
