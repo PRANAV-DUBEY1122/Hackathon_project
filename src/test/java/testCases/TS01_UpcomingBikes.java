@@ -10,7 +10,7 @@ public class TS01_UpcomingBikes extends Base{
 	
 
 		
-		@Test(priority = 1)
+		@Test(groups = {"sanity","regression"})
 		public void upComingBikes() throws Exception
 		{
 			upcomingBikes up = new upcomingBikes(driver);

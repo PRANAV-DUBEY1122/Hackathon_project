@@ -10,7 +10,7 @@ import testBase.Base;
 public class TS02_UsedCars extends Base {
 
 	
-	@Test(priority = 2)
+	@Test(groups = {"sanity","regression"})
 	public void usedCars() throws InterruptedException, IOException {
 		usedCars usedCars = new usedCars(driver);
 		

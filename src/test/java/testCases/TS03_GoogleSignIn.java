@@ -9,7 +9,7 @@ import testBase.Base;
 
 public class TS03_GoogleSignIn extends Base {
 
-	@Test(priority =3)
+	@Test(groups = {"sanity","regression"})
 	public void testGoogleSignIn() throws InterruptedException, IOException
 	{
 		googleSignIn signin = new googleSignIn(driver);

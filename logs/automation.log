@@ -1,2 +1,6 @@
-11:14:36.235 [main] INFO  testCases.TS03_GoogleSignIn - Captured error message on using invalid login credentials 
-11:14:36.837 [main] INFO  testCases.TS03_GoogleSignIn - Login page execution got failed and captured error message
+16:25:20.084 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:26:01.700 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:26:01.702 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:26:01.703 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:26:03.019 [main] INFO  testCases.TS03_GoogleSignIn - Captured error message on using invalid login credentials 
+16:26:03.459 [main] INFO  testCases.TS03_GoogleSignIn - Login page execution got failed and captured error message
