@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TS03_GoogleSignIn">
+      <class name="testCases.TS01_UpcomingBikes">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="testGoogleSignIn"/>
+          <include name="upComingBikes"/>
         </methods>
-      </class> <!-- testCases.TS03_GoogleSignIn -->
+      </class> <!-- testCases.TS01_UpcomingBikes -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -8,7 +8,7 @@
   <parameter name="browser" value="Chrome"></parameter>
   <classes>
  	<class name="testCases.TS01_UpcomingBikes"/>
-	 <class name="testCases.TS02_UsedCars"/>
+	<class name="testCases.TS02_UsedCars"/>
      <class name="testCases.TS03_GoogleSignIn"/>
     </classes>
   </test> <!-- Test -->

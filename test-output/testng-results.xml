@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T16:21:05 IST" name="Suite" finished-at="2024-02-28T16:26:05 IST" duration-ms="299471">
+  <suite started-at="2024-03-04T16:10:29 IST" name="Suite" finished-at="2024-03-04T16:17:25 IST" duration-ms="415936">
     <groups>
       <group name="regression">
-        <method signature="TS03_GoogleSignIn.testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@42a48628]" name="testGoogleSignIn" class="testCases.TS03_GoogleSignIn"/>
+        <method signature="TS01_UpcomingBikes.upComingBikes()[pri:0, instance:testCases.TS01_UpcomingBikes@74f0ea28]" name="upComingBikes" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS02_UsedCars.usedCars()[pri:0, instance:testCases.TS02_UsedCars@55b699ef]" name="usedCars" class="testCases.TS02_UsedCars"/>
+        <method signature="TS03_GoogleSignIn.testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@35d019a3]" name="testGoogleSignIn" class="testCases.TS03_GoogleSignIn"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TS03_GoogleSignIn.testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@42a48628]" name="testGoogleSignIn" class="testCases.TS03_GoogleSignIn"/>
+        <method signature="TS01_UpcomingBikes.upComingBikes()[pri:0, instance:testCases.TS01_UpcomingBikes@74f0ea28]" name="upComingBikes" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS02_UsedCars.usedCars()[pri:0, instance:testCases.TS02_UsedCars@55b699ef]" name="usedCars" class="testCases.TS02_UsedCars"/>
+        <method signature="TS03_GoogleSignIn.testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@35d019a3]" name="testGoogleSignIn" class="testCases.TS03_GoogleSignIn"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-02-28T16:21:05 IST" name="Test" finished-at="2024-02-28T16:26:05 IST" duration-ms="299471">
-      <class name="testCases.TS03_GoogleSignIn">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS03_GoogleSignIn@42a48628]" started-at="2024-02-28T16:21:06 IST" name="setup" finished-at="2024-02-28T16:21:51 IST" duration-ms="44913" status="PASS">
+    <test started-at="2024-03-04T16:10:29 IST" name="Test" finished-at="2024-03-04T16:17:25 IST" duration-ms="415936">
+      <class name="testCases.TS02_UsedCars">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS02_UsedCars@55b699ef]" started-at="2024-03-04T16:11:57 IST" name="setup" finished-at="2024-03-04T16:12:21 IST" duration-ms="23776" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,15 +28,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@42a48628]" started-at="2024-02-28T16:21:51 IST" name="testGoogleSignIn" finished-at="2024-02-28T16:26:03 IST" duration-ms="251949" status="PASS">
+        <test-method signature="usedCars()[pri:0, instance:testCases.TS02_UsedCars@55b699ef]" started-at="2024-03-04T16:12:21 IST" name="usedCars" finished-at="2024-03-04T16:12:51 IST" duration-ms="30102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS02_UsedCars@55b699ef]" started-at="2024-03-04T16:12:52 IST" name="teardown" finished-at="2024-03-04T16:12:53 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS02_UsedCars -->
+      <class name="testCases.TS03_GoogleSignIn">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS03_GoogleSignIn@35d019a3]" started-at="2024-03-04T16:12:53 IST" name="setup" finished-at="2024-03-04T16:13:11 IST" duration-ms="17807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGoogleSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@35d019a3]" started-at="2024-03-04T16:13:11 IST" name="testGoogleSignIn" finished-at="2024-03-04T16:17:23 IST" duration-ms="252259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleSignIn -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS03_GoogleSignIn@42a48628]" started-at="2024-02-28T16:26:04 IST" name="teardown" finished-at="2024-02-28T16:26:05 IST" duration-ms="1184" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS03_GoogleSignIn@35d019a3]" started-at="2024-03-04T16:17:23 IST" name="teardown" finished-at="2024-03-04T16:17:25 IST" duration-ms="1390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TS03_GoogleSignIn -->
+      <class name="testCases.TS01_UpcomingBikes">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS01_UpcomingBikes@74f0ea28]" started-at="2024-03-04T16:10:30 IST" name="setup" finished-at="2024-03-04T16:11:37 IST" duration-ms="66290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="upComingBikes()[pri:0, instance:testCases.TS01_UpcomingBikes@74f0ea28]" started-at="2024-03-04T16:11:37 IST" name="upComingBikes" finished-at="2024-03-04T16:11:53 IST" duration-ms="15983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upComingBikes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS01_UpcomingBikes@74f0ea28]" started-at="2024-03-04T16:11:53 IST" name="teardown" finished-at="2024-03-04T16:11:57 IST" duration-ms="4081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS01_UpcomingBikes -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

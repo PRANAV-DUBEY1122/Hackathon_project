@@ -46,7 +46,7 @@ public class upcomingBikes extends basePage {
 		
 		
 		
-		int count = 0;
+		
 		
 		// Hover over 'New Bikes' menu to view 'Upcoming Bikes'
 		
@@ -109,6 +109,7 @@ public class upcomingBikes extends basePage {
 			
 			// Iterate through the list of bike models and extract the required information
 			for (int i = 0; i < bikeModelsElements.size(); i++) {
+				
 				String s = bikeModelsElements.get(i);
 				if (s.contains("Honda")) {
 					nameList.add(s);
@@ -117,7 +118,7 @@ public class upcomingBikes extends basePage {
 					arr = s.split(" ");
 					priceList.add(arr[1]);
 				}
-				if (s.contains("Launch Date : ")) {
+				if (s.contains("Expected Launch")) {
 					dateList.add(s);
 				}
 			}
@@ -128,7 +129,6 @@ public class upcomingBikes extends basePage {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-	        
 			// Initialize an ArrayList to store upcoming bikes with price less than 4 Lakhs
 			ArrayList<String> upcomingBikes = new ArrayList<String>();
 			if(nameList.size()>0) {for (int i = 0; i <nameList.size(); i++) {
